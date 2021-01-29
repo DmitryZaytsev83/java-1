@@ -15,7 +15,7 @@ public class Cat extends Animal {
         System.out.printf("%s не поплыл, потому что забил%n", name);
     }
 
-    public static void getCount() {
+    public static void printCount() {
         System.out.printf("Количество котов: %d%n", count);
     }
 }

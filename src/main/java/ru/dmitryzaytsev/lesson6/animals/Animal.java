@@ -22,7 +22,7 @@ public abstract class Animal {
         }
     }
 
-    public static void getCount() {
+    public static void printCount() {
         System.out.printf("Количество животных: %d%n", count);
     }
 }

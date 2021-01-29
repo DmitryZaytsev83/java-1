@@ -19,7 +19,7 @@ public class Dog extends Animal {
         }
     }
 
-    public static void getCount() {
+    public static void printCount() {
         System.out.printf("Количество собак: %d%n", count);
     }
 }

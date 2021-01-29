@@ -21,8 +21,8 @@ public class Main {
         Animal dog2 = new Dog("Полкан");
         dog2.swim(5);
         dog2.run(300);
-        Cat.getCount();
-        Dog.getCount();
-        Animal.getCount();
+        Cat.printCount();
+        Dog.printCount();
+        Animal.printCount();
     }
 }
